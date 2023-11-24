@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+    background-color:cadetblue;
+    margin: 0;
+}
+.container {
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    border: 1px solid;
+    height: 150px;
+    width: 400px;
+    margin: 200px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.clock_date {
+    font-size: 26px;
+}
+.clock_time {
+    font-size: 20px;
+}
